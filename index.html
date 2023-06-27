@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./log-in.css">
+    <title>Log-In Page</title>
+</head>
+
+<body>
+    <section class="left-side">
+        <nav>
+            <h1>Kreative</h1>
+        </nav>
+        <div class="main">
+            <h2>Let's get you started</h2>
+
+            <form class="form" action="#" name="log-in-form" autocomplete="on">
+                <label for="full-name">Full Name<input class="input" type="text" placeholder="Josh Sims" name="full-name" id="full-name" autocomplete="name" minlength="4" aria-label="first-name" tabindex="3" required/>
+                </label>
+
+                <label for="email">Email Address <input class="input" type="text" placeholder="yourname@email.com" autocomplete="email" id="email" required/></label>
+
+                <label for="phone-number">Phone Number <input type="text" class="input" type="number" placeholder="+44 900 456 123" required></label>
+                
+                <label for="password">Password <input type="password" class="input" id="password" minlength="8" placeholder="•••••••" required/></label> 
+                    <p>Password must contain a minimum of 8 characters</p>
+                    <p>Password must contain at least one symbol e.g.@,!</p>
+
+                <label for="location">Location <span>(Optional)</span>
+            <select name="location" id="location" class="input" placeholder="Choose Location">
+                <option value="uk">United Kingdom</option>
+                <option value="ireland">Ireland</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="usa">United States</option>
+            </select>
+        </label>
+
+                <button>Sign up</button>
+            </form>
+            <p class="already-user">Already an user? <a href="#">Login</a></p>
+        </div>
+    </section>
+    <section class="side-text">
+        <nav>        
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div>
+            <q>Creativity is intelligence having fun</q>
+            <p class="small-text">-Albert Einstein</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: space-between;
+    gap: .1em;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.side-text{
+    background: linear-gradient(142deg, #517879 1.09%, #1E3E57 100%);
+    -webkit-backdrop-filter: blur(2.5px);
+}
+
+.side-text>nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.side-text>nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 2em;
+    margin-bottom: 7em;
+}
+
+.side-text>div{
+    padding: 4em;
+}
+
+q{
+    quotes: auto;
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-shadow: 5px 5px 2px rgba(128, 128, 128, 0.49);
+}
+
+.small-text{
+    color: white;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(#496F74, #6E9195, #2D4F61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+.main{
+    padding: 2em;
+    align-items: center;
+    /* margin-left: 3em; */
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 3em;
+}
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 1em;
+    overflow: hidden;
+}
+
+.form>*{
+    flex-grow: 1;
+}
+
+.input{
+    display: flex;
+    margin-top: .8em;
+    border: 1px solid #CCC;
+    border-radius: .25em;
+    box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.10);
+    /* padding-left: 25em;
+    padding-bottom: 2.5em; */
+    width: 25em;
+    height: 2.5em;
+    padding-left: 1em;
+    /* gap: 2em; */
+    /* justify-content: space-between; */
+}
+
+input::placeholder{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+input[type=password]{
+    input-security: auto;
+}
+
+.form>p{
+    color: #CCC;
+    font-size: 0.75em;
+}
+
+label>span{
+    color: #CCC;
+}
+
+button{
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #284A5E;
+    background: #27485D;
+    box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.10);
+    padding: 1em;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
+.already-user{
+    color: #CCC;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.already-user>a{
+    color: #476D73;
+}
+
+/* ::-webkit-input-placeholder{
+    color: red;
+    
+} */
