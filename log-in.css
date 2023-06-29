@@ -7,11 +7,27 @@
 }
 
 body{
-    /* max-width: 1200px; */
+    background-image: url(./Stroke\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    max-width: 1100px;
+    margin: 0 auto; /* this centers it  */
+    background-position: 0 top;
     display: flex;
     justify-content: space-between;
     gap: .1em;
     font-family: "Space Grotesk", sans-serif;
+}
+
+body>*{
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+
+@media (max-width: 932px) {
+    .side-text{
+        display: none; /*this makes the side text disappear when display reaches 932px*/
+    }
 }
 
 .side-text{
@@ -63,6 +79,8 @@ h1{
 .main{
     padding: 2em;
     align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
     /* margin-left: 3em; */
 }
 
